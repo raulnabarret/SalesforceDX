@@ -1,0 +1,19 @@
+{
+  "name": "geolocation",
+  "version": "1.0.0",
+  "description": "## Dev, Build and Test",
+  "main": "index.js",
+  "scripts": {
+    "sfdx-pull": "sfdx force:source:pull"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raulnabarret/SalesforceDX.git"
+  },
+  "author": "Raul Nabarret",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raulnabarret/SalesforceDX/issues"
+  },
+  "homepage": "https://github.com/raulnabarret/SalesforceDX#readme"
+}
