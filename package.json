@@ -4,7 +4,9 @@
   "description": "## Dev, Build and Test",
   "main": "index.js",
   "scripts": {
-    "sfdx-pull": "sfdx force:source:pull"
+    "sfdx-pull": "sfdx force:source:pull",
+    "sfdx-push": "sfdx force:source:push",
+    "sfdx-open": "sfdx force:org:open"
   },
   "repository": {
     "type": "git",
