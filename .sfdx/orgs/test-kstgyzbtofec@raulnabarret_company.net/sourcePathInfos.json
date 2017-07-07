@@ -32,28 +32,28 @@
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default",
         {
-            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 306,
             "modifiedTime": 1499398096000,
             "changeTime": 1499398096000,
-            "contentHash": "d8417619f8cb74acd7a6c2b95aaad38138801297"
+            "contentHash": "d8417619f8cb74acd7a6c2b95aaad38138801297",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura",
         {
+            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura",
             "isDirectory": true,
-            "size": 102,
-            "modifiedTime": 1499397886000,
-            "changeTime": 1499397886000,
-            "contentHash": "4c01eade869b72bbd66cfccee570a524d94497f7",
             "isMetadataFile": false,
-            "state": "u",
-            "isWorkspace": false
+            "size": 170,
+            "modifiedTime": 1499398341000,
+            "changeTime": 1499398341000,
+            "isWorkspace": false,
+            "contentHash": "9c98372a45cf06c7fb95ee4aa450766e3a658e86"
         }
     ],
     [
@@ -866,14 +866,14 @@
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountLocator/AccountLocator.cmp",
         {
+            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountLocator/AccountLocator.cmp",
             "isDirectory": false,
-            "size": 156,
-            "modifiedTime": 1499397906000,
-            "changeTime": 1499397906000,
-            "contentHash": "f3f590857881ca3c0ed746a2c23effadffed7691",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 182,
+            "modifiedTime": 1499398438000,
+            "changeTime": 1499398438000,
+            "contentHash": "f0aad58c6510048b7f88251e480b43431d0b9784"
         }
     ],
     [
@@ -944,92 +944,274 @@
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/tabs/Account_Locator.tab-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/tabs/Account_Locator.tab-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 267,
             "modifiedTime": 1499398096000,
             "changeTime": 1499398096000,
-            "contentHash": "25b4dfb9d3c91e29d9d332b9c938caefecaf96db"
+            "contentHash": "25b4dfb9d3c91e29d9d332b9c938caefecaf96db",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles/Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5767,
             "modifiedTime": 1499398096000,
             "changeTime": 1499398096000,
-            "contentHash": "a10e74fdbe768a899b68167f4ac7c0f13124723d"
+            "contentHash": "a10e74fdbe768a899b68167f4ac7c0f13124723d",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles/Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5429,
             "modifiedTime": 1499398096000,
             "changeTime": 1499398096000,
-            "contentHash": "2edc3bf49c46276d990ccce2d0ef7571a8bd5147"
+            "contentHash": "2edc3bf49c46276d990ccce2d0ef7571a8bd5147",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles/Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 5429,
             "modifiedTime": 1499398096000,
             "changeTime": 1499398096000,
-            "contentHash": "2edc3bf49c46276d990ccce2d0ef7571a8bd5147"
+            "contentHash": "2edc3bf49c46276d990ccce2d0ef7571a8bd5147",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles/Admin.profile-meta.xml",
         {
-            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles/Admin.profile-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 17652,
             "modifiedTime": 1499398096000,
             "changeTime": 1499398096000,
-            "contentHash": "c9a6ee1650f65d15eab7a4cc1f345c1987040a83"
+            "contentHash": "c9a6ee1650f65d15eab7a4cc1f345c1987040a83",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/tabs",
         {
-            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/tabs",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 102,
             "modifiedTime": 1499398096000,
             "changeTime": 1499398096000,
-            "contentHash": "e07904c1411fc5069c20a25aedc7d6bdcade7b1f"
+            "contentHash": "e07904c1411fc5069c20a25aedc7d6bdcade7b1f",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
         "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles",
         {
-            "state": "u",
             "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/profiles",
             "isDirectory": true,
-            "isMetadataFile": false,
             "size": 204,
             "modifiedTime": 1499398096000,
             "changeTime": 1499398096000,
-            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717",
+            "isMetadataFile": false,
+            "state": "u"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 272,
+            "modifiedTime": 1499398341000,
+            "changeTime": 1499398341000,
+            "contentHash": "9b10fc950c90c6623061197f88c0db00961e1f2f"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 272,
+            "modifiedTime": 1499398248000,
+            "changeTime": 1499398248000,
+            "contentHash": "9fe0106ed0f04a02776eb4dbdb9bb1ee85be87b7"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountList.cmp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountList.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 336,
+            "modifiedTime": 1499398390000,
+            "changeTime": 1499398390000,
+            "contentHash": "a44a51608a29d4a80a288107aa5c4996d2a07e9a"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountList.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountList.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 243,
+            "modifiedTime": 1499398341000,
+            "changeTime": 1499398341000,
+            "contentHash": "22ef10b2acb59793801abaf45e483c705bc14c8c"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountList.css",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountList.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 111,
+            "modifiedTime": 1499398421000,
+            "changeTime": 1499398421000,
+            "contentHash": "ff97680a451dccf775d504143f673481b13a3300"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountListController.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountListController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 255,
+            "modifiedTime": 1499398408000,
+            "changeTime": 1499398408000,
+            "contentHash": "852714ef85a9eacf436a155236a97021f5688cef"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountListHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountListHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 45,
+            "modifiedTime": 1499398341000,
+            "changeTime": 1499398341000,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountListRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountList/AccountListRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 50,
+            "modifiedTime": 1499398341000,
+            "changeTime": 1499398341000,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItem.cmp",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItem.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 120,
+            "modifiedTime": 1499398277000,
+            "changeTime": 1499398277000,
+            "contentHash": "474f6d902cf12af89851140c645345a9f8da10a8"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItem.cmp-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItem.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 247,
+            "modifiedTime": 1499398248000,
+            "changeTime": 1499398248000,
+            "contentHash": "696b3214008c0232cc260fded1de3ff036b1a0a0"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItem.css",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItem.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 170,
+            "modifiedTime": 1499398303000,
+            "changeTime": 1499398303000,
+            "contentHash": "97aec742d594f26443b71d24ed7ae41e88305ad0"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItemController.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItemController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 65,
+            "modifiedTime": 1499398248000,
+            "changeTime": 1499398248000,
+            "contentHash": "194250e0c86b1981f8d4e7246be6b32954c6deaf"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItemHelper.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItemHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 45,
+            "modifiedTime": 1499398248000,
+            "changeTime": 1499398248000,
+            "contentHash": "fa35ebecd73c127729bf311a95b613f711a6f10b"
+        }
+    ],
+    [
+        "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItemRenderer.js",
+        {
+            "state": "u",
+            "sourcePath": "/Users/raulnabarret/Desktop/geolocation/force-app/main/default/aura/AccountListItem/AccountListItemRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 50,
+            "modifiedTime": 1499398248000,
+            "changeTime": 1499398248000,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b"
         }
     ]
 ]
