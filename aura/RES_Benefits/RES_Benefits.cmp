@@ -1,0 +1,219 @@
+<aura:component access="global">
+
+	<aura:attribute name="employee" access="public" type="Employee_Record__c"/>
+	<aura:attribute name="employeeSettings" access="public" type="Object"/>
+	<aura:attribute name="posterImage" access="private" type="String" default="https://s3-us-west-2.amazonaws.com/anmvideos/anm-video-preview.jpg"/>
+
+    <!-- Handlers -->
+    <aura:handler event="c:strike_evt_modalHide" name="strike_evt_modalHide"
+            action="{!c.handleModalHide}"/>
+    <aura:handler event="c:videoEndedEvent" name="videoEndedEvent" action="{!c.handleVideoEnded}"/>
+    <!-- Handlers -->
+    
+	<div class="slds-grid slds-wrap">
+	    <!-- SubHeader -->
+	    <div class="slds-size--12-of-12">
+	        <div class="slds-p-around--medium">
+	            <div class="slds-align--absolute-center slds-p-bottom--small">
+	                <h2 class="slds-text-heading--large">My ADP</h2>
+	            </div>
+	            <div class="slds-align--absolute-center slds-p-bottom--small slds-p-horizontal--xx-large">
+	                <p class="slds-text-body--regular slds-text-align--center">ANM offers its employees in eligible positions a comprehensive benefits package geared to benefiting our employees and their families.  Please contact Human Resources with any questions regarding our Benefits. </p>
+	            </div>
+	        </div>
+	    </div>
+	    <!-- Benefits -->
+	    <div class="slds-size--12-of-12 slds-p-vertical--small">
+	        <div class="slds-grid slds-wrap">
+	            <!-- Subheader -->
+	            <div class="slds-p-vertical--medium slds-size--12-of-12">
+	                <h3 class="slds-text-heading--medium">My ADP</h3>
+	            </div>
+	            <div class="slds-size--12-of-12 slds-p-vertical--small">
+	                <div class="slds-grid slds-wrap">
+	                    <!-- Displays USA Benefits -->
+	                    <aura:if isTrue="{!v.employee.Country__c == 'USA'}">
+	                        <!-- My ADP -->
+	                        <div class="slds-size--12-of-12 slds-p-vertical--small">
+	                            <div class="slds-grid slds-wrap">
+	                                <div class="slds-p-horizontal--small slds-small-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--6-of-12">
+	                                    <div class="slds-grid slds-wrap slds-box box-height">
+	                                        <div class="slds-p-around--small">
+	                                            <h4 class="slds-text-heading--small">My ADP</h4>
+	                                        </div>
+	                                        <div class="slds-p-around--small">
+		                                        <div class="slds-p-around--x-small">
+		                                            <p class="slds-text-body--small">To access ADP please select on the below link:</p>
+													<ul class="slds-text-body--small slds-list--dotted slds-p-around--xx-small">
+		                                                <li><a class="slds-hyphenate" target="_blank" href="http://www.workforcenow.adp.com">www.workforcenow.adp.com</a></li>
+		                                            </ul>
+				                                    <div class="slds-inline_icon_text slds-grid">
+				                                        <lightning:icon iconName="utility:info" size="small"/>
+				                                        <div class="slds-col slds-align-middle slds-p-left--small">
+				                                            <p class="slds-text-body--small">Use your Salesforce credentials as your Username and Password. </p>
+				                                        </div>
+				                                    </div>
+			                                    </div>
+		                                        <div class="slds-p-around--x-small">
+		                                            <p class="slds-text-body--small">The below video is an overview on navigating through your Employee Self Service portal:</p>
+		                                            <ul class="slds-text-body--small slds-list--dotted slds-p-around--xx-small">
+		                                                <li><a class="slds-hyphenate" onclick="{!c.handleBenefitsLinkClick}">Link to ADP Overview Video</a></li>
+		                                            </ul>
+			                                    </div>
+		                                        <div class="slds-p-around--x-small">
+	                                            	<p>Please contact Human Resources with any questions at <a href="mailto:hr@anm.com">hr@anm.com</a>.</p>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!-- My ADP -->
+	                    </aura:if>
+	                    <!-- Displays USA Benefits -->
+	                    <!-- Displays Mexico Benefits -->
+	                    <aura:if isTrue="{!v.employee.Country__c == 'MEX'}">
+	                        <!-- My ADP -->
+	                        <div class="slds-size--12-of-12 slds-p-vertical--small">
+	                            <div class="slds-grid slds-wrap">
+	                                <div class="slds-p-horizontal--small slds-small-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--6-of-12">
+	                                    <div class="slds-grid slds-wrap slds-box box-height">
+	                                        <div class="slds-p-around--small">
+	                                            <h4 class="slds-text-heading--small">My ADP</h4>
+	                                        </div>
+	                                        <div class="slds-p-around--small">
+		                                        <div class="slds-p-around--x-small">
+		                                            <p class="slds-text-body--small">To access ADP please select on the below link:</p>
+													<ul class="slds-text-body--small slds-list--dotted slds-p-around--xx-small">
+		                                                <li><a class="slds-hyphenate" target="_blank" href="http://www.workforcenow.adp.com">www.workforcenow.adp.com</a></li>
+		                                            </ul>
+				                                    <div class="slds-inline_icon_text slds-grid">
+				                                        <lightning:icon iconName="utility:info" size="small"/>
+				                                        <div class="slds-col slds-align-middle slds-p-left--small">
+				                                            <p class="slds-text-body--small">Use your Salesforce credentials as your Username and Password. </p>
+				                                        </div>
+				                                    </div>
+			                                    </div>
+		                                        <div class="slds-p-around--x-small">
+		                                            <p class="slds-text-body--small">The below video is an overview on navigating through your Employee Self Service portal:</p>
+		                                            <ul class="slds-text-body--small slds-list--dotted slds-p-around--xx-small">
+		                                                <li><a class="slds-hyphenate" onclick="{!c.handleBenefitsLinkClick}">Link to ADP Overview Video</a></li>
+		                                            </ul>
+			                                    </div>
+		                                        <div class="slds-p-around--x-small">
+	                                            	<p>Please contact Human Resources with any questions at <a href="mailto:hr@anm.com">hr@anm.com</a>.</p>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!-- My ADP -->
+	                        <!-- México Benefits -->
+	                        <div class="slds-size--12-of-12 slds-p-vertical--small">
+	                            <div class="slds-grid slds-wrap">
+	                                <div class="slds-p-horizontal--small slds-small-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--6-of-12">
+	                                    <div class="slds-grid slds-wrap slds-box box-height">
+	                                        <div class="slds-p-around--small">
+	                                            <h4 class="slds-text-heading--small">Mexico Benefits</h4>
+	                                        </div>
+	                                        <div class="slds-p-around--small">
+	                                            <p class="slds-text-body--small">ANM Mexico S. de R.L. de C.V., an ANM Subsidiary offers its employees in eligible positions a comprehensive benefits package geared to benefiting our employees and their families.  Please contact Human Resources with any questions regarding our Benefits. </p>
+	                                            <p class="slds-text-body--small">Please contact Human Resources for any additional questions or you may also refer to your Employee Handbook and the Benefit Overview video below:</p>
+	                                            <ul class="slds-text-body--small slds-list--dotted slds-p-around--xx-small">
+	                                                <li><a class="slds-hyphenate" onclick="{!c.handleBenefitsLinkClick}">Link to Benefit Overview Video</a></li>
+	                                            </ul>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!-- México Benefits -->
+	                    </aura:if>
+	                    <!-- Displays Mexico Benefits -->
+	                    <!-- Displays India Benefits -->
+	                    <aura:if isTrue="{!v.employee.Country__c == 'IND'}">
+	                        <!-- My ADP -->
+	                        <div class="slds-size--12-of-12 slds-p-vertical--small">
+	                            <div class="slds-grid slds-wrap">
+	                                <div class="slds-p-horizontal--small slds-small-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--6-of-12">
+	                                    <div class="slds-grid slds-wrap slds-box box-height">
+	                                        <div class="slds-p-around--small">
+	                                            <h4 class="slds-text-heading--small">My ADP</h4>
+	                                        </div>
+	                                        <div class="slds-p-around--small">
+		                                        <div class="slds-p-around--x-small">
+		                                            <p class="slds-text-body--small">To access ADP please select on the below link:</p>
+													<ul class="slds-text-body--small slds-list--dotted slds-p-around--xx-small">
+		                                                <li><a class="slds-hyphenate" target="_blank" href="http://www.workforcenow.adp.com">www.workforcenow.adp.com</a></li>
+		                                            </ul>
+				                                    <div class="slds-inline_icon_text slds-grid">
+				                                        <lightning:icon iconName="utility:info" size="small"/>
+				                                        <div class="slds-col slds-align-middle slds-p-left--small">
+				                                            <p class="slds-text-body--small">Use your Salesforce credentials as your Username and Password. </p>
+				                                        </div>
+				                                    </div>
+			                                    </div>
+		                                        <div class="slds-p-around--x-small">
+		                                            <p class="slds-text-body--small">The below video is an overview on navigating through your Employee Self Service portal:</p>
+		                                            <ul class="slds-text-body--small slds-list--dotted slds-p-around--xx-small">
+		                                                <li><a class="slds-hyphenate" onclick="{!c.handleBenefitsLinkClick}">Link to ADP Overview Video</a></li>
+		                                            </ul>
+			                                    </div>
+		                                        <div class="slds-p-around--x-small">
+	                                            	<p>Please contact Human Resources with any questions at <a href="mailto:hr@anm.com">hr@anm.com</a>.</p>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!-- My ADP -->
+	                        <!-- India Benefits -->
+	                        <div class="slds-size--12-of-12 slds-p-vertical--small">
+	                            <div class="slds-grid slds-wrap">
+	                                <div class="slds-p-horizontal--small slds-small-size--12-of-12 slds-medium-size--12-of-12 slds-large-size--6-of-12">
+	                                    <div class="slds-grid slds-wrap slds-box box-height">
+	                                        <div class="slds-p-around--small">
+	                                            <h4 class="slds-text-heading--small">India Benefits</h4>
+	                                        </div>
+	                                        <div class="slds-p-around--small">
+	                                            <p class="slds-text-body--small">ANM Services India Pvt Ltd, an ANM Subsidiary offers its employees in eligible positions a comprehensive benefits package geared to benefiting our employees and their families.  Please contact Human Resources with any questions regarding our Benefits. </p>
+	                                            <p class="slds-text-body--small">Please contact Human Resources for any additional questions or you may also refer to your Employee Handbook and the Benefit Overview video below:</p>
+	                                            <ul class="slds-text-body--small slds-list--dotted slds-p-around--xx-small">
+	                                                <li><a class="slds-hyphenate" onclick="{!c.handleBenefitsLinkClick}">Link to Benefit Overview Video</a></li>
+	                                            </ul>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                            </div>
+	                        </div>
+	                        <!-- India Benefits -->
+	                    </aura:if>
+	                    <!-- Displays India Benefits -->
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <!-- Benefits -->
+	</div>
+    <!-- Video Modal -->
+    <c:strike_modal aura:id="videoModal"
+        title=""
+        secondaryButtonLabel="Cancel"
+        primaryButtonLabel="Ok">
+            <!-- Video Component -->
+            <c:video aura:id="resourceVideo"
+                videoName=""
+                poster="{!v.posterImage}"
+                preload="metadata"
+                class="slds-size--12-of-12 video-thumbnail"
+                src=""
+                controls="true"/>
+            <aura:set attribute="footerButtons">
+                <span></span>
+            </aura:set>
+    </c:strike_modal>   
+    <!-- Video Modal -->
+	
+</aura:component>
